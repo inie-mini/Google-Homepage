@@ -1,0 +1,106 @@
+html {
+  font-family: arial,sans-serif;
+  padding: 10px;
+}
+
+#nav-bar{
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.right{
+  width: auto;
+  justify-content: right;
+  text-align: right;
+}
+
+.button-style{
+  height: 38px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+#gmail{
+  margin-right: 18px;
+}
+#images{
+  margin-right: 18px;
+}
+#GoogleApps{
+  margin-right: 20px;
+}
+
+  #Login{
+    width: auto;
+    color:white;
+    font-size: 16px;
+    background: rgb(24, 130, 252);
+    border: none;
+    vertical-align: middle;
+    padding: 9px 29px;
+  }
+
+  #Logo{
+    display: flex;
+    height:auto;
+    width:auto;
+  
+    align-items: center;
+    justify-content: center;
+  }
+
+  #SearchBar{
+    display: flex;
+    align-content: center;
+    margin: 30px auto;
+    }
+
+  #searchinner{
+    display: flex;
+    align-content: center;
+    margin: auto;
+    border: 1px solid rgba(180, 180, 180, 0.5);
+    border-radius: 25px;
+    height: 45px;
+    width: 600px;
+    max-width: auto;
+  }
+
+  #glass{
+    background-color: transparent;
+    margin: 7px;
+  }
+
+  #search{
+    height: 38px;
+    width: 100%;
+    margin: auto;
+    border: none;
+  }
+  #search:focus{
+    outline: none;
+  }
+
+  #mic{
+    margin-right: 1px;
+  }
+#buttonsearch{
+  font-size: 14px;
+  margin: auto 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+#luckyguess{
+  font-size: 14px;
+  margin: auto 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
